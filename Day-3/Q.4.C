@@ -12,7 +12,7 @@ int main()
     {
         if(greatest%a==0 && greatest%b==0)
         {
-            printf("The LCM of the numbers %d and %d is %d",a,b,greatest);
+            printf("The LCM of the numbers %d and %d is %d.",a,b,greatest);
             break;
         }
         greatest++;

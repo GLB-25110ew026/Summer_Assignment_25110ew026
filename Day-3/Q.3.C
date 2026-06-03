@@ -12,6 +12,6 @@ int main()
         if(a%i==0 && b%i==0)
             GCD=i;
     }
-    printf("GCD of the two numbers %d and %d is %d",a,b,GCD);
+    printf("GCD of the two numbers %d and %d is %d.",a,b,GCD);
     return 0;
 }
