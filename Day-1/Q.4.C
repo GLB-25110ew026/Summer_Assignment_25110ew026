@@ -18,6 +18,6 @@ int main()
         digits++;
         }
     }
-    printf("The number of digits in %llu is %d.\n",originalnumber,digits);
+    printf("The number of digits in %llu is %d.",originalnumber,digits);
     return 0;
 }
