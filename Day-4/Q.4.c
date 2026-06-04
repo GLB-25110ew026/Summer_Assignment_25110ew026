@@ -18,10 +18,10 @@ int main()
         sum=sum+r*r*r;
         temp=temp/10;
     }
-    if(sum==i)
-    {
+     if(sum==i)
+     {
         printf("%d ",i);
-    }
+     }
     }
     printf("\n");
     return 0;

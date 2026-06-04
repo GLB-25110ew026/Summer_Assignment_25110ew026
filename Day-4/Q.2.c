@@ -16,7 +16,7 @@ int main()
     }
     else
     {
-        for (i=3;i<=n;++i)
+      for (i=3;i<=n;++i)
         {
             c=a+b;
             a=b;
