@@ -1,4 +1,4 @@
-//WAP for Recursive fibonacci.
+//WAP for Recursive Fibonacci.
 #include <stdio.h>
 int fibonacci(int n);
 int main()

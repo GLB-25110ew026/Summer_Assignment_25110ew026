@@ -1,4 +1,4 @@
-//WAP for recursive sum of digits.
+//WAP for Recursive Sum of digits.
 #include <stdio.h>
 int Sumofdigits(int n);
 int main()

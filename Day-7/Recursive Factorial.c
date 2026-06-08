@@ -1,4 +1,4 @@
-//WAP for Recursive factorial.
+//WAP for Recursive Factorial.
 #include <stdio.h>
 long long factorial(int n);
 int main()

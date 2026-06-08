@@ -1,4 +1,4 @@
-//WAP for recursive reverse of a number.
+//WAP for Recursive Reverse of a number.
 #include <stdio.h>
 int reverse(int n,int reversed);
 int main()
