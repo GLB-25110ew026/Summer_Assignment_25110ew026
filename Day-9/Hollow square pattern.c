@@ -12,7 +12,6 @@ int main()
             if(i==1|i==rows||j==1|j==rows)
             {
                 printf("*");
-
             }
             else
             {
