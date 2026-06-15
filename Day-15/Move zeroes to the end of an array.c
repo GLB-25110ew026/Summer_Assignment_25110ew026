@@ -1,8 +1,8 @@
-//WAP to rotate an array right.
+//WAP to move the zeroes to the end of an array.
 #include <stdio.h>
 int main()
 {
-    int i,j,n,temp,rotate_right;
+    int i,n,count;
     printf("Enter the size of the array= ");
     scanf("%d",&n);
     int arr[n];
@@ -11,18 +11,21 @@ int main()
     {
         scanf("%d",&arr[i]);
     }
-    printf("Enter the number of times to rotate right: ");
-    scanf("%d",&rotate_right);
-    for(j=0;j<rotate_right;j++)
+    count=0;
+    for(i=0;i<n;i++)
     {
-        temp=arr[n-1];
-        for(i=n-1;i>0;i--)
+        if(arr[i]!=0)
         {
-            arr[i]=arr[i-1];
+            arr[count]=arr[i];
+            count++;
         }
-        arr[0]=temp;
     }
-    printf("The array after rotating right:\n");
+    while(count<n)
+    {
+        arr[count]=0;
+        count++;
+    }
+    printf("The desired array:\n");
     for(i=0;i<n;i++)
     {
         printf("%d ",arr[i]);
@@ -30,3 +33,5 @@ int main()
     printf("\n");
     return 0;
 }    
+    
+
