@@ -22,7 +22,7 @@ int main()
         }
         arr[0]=temp;
     }
-    printf("The array after rotating right:\n");
+    printf("The array after rotating right %d times:\n",rotate_right);
     for(i=0;i<n;i++)
     {
         printf("%d ",arr[i]);
