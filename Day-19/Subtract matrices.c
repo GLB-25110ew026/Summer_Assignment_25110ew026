@@ -1,8 +1,8 @@
-//WAP to add matrices.
+//WAP to subtract matrices.
 #include <stdio.h>
 int main()
 {
-    int i,j,rows,columns,matrix_A[5][5],matrix_B[5][5],sum_matrix[5][5];
+    int i,j,rows,columns,matrix_A[5][5],matrix_B[5][5],difference_matrix[5][5];
     printf("Enter the number of rows= ");
     scanf("%d",&rows);
     printf("Enter the number of columns= ");
@@ -29,7 +29,7 @@ int main()
     {
         for(j=0;j<columns;j++)
         {
-            sum_matrix[i][j]=matrix_A[i][j]+matrix_B[i][j];
+            difference_matrix[i][j]=matrix_A[i][j]-matrix_B[i][j];
         }
     }
     printf("The resultant matrix is:\n");
@@ -37,7 +37,7 @@ int main()
     {
         for(j=0;j<columns;j++)
         {
-            printf("%d\t",sum_matrix[i][j]);
+            printf("%d\t",difference_matrix[i][j]);
         }
         printf("\n");
     }
