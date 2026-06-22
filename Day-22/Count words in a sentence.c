@@ -1,11 +1,13 @@
 //WAP to count words in a sentence.
 #include <stdio.h>
+#include <string.h>
 int main()
 {
     int i,count=0,inside_word=0;
     char str[200];
     printf("Enter the sentence: ");
     fgets(str,sizeof(str),stdin);
+    str[strcspn(str,"\n")]='\0';
     for(i=0;str[i]!='\0';i++)
     {
         if(str[i]!=' ')
