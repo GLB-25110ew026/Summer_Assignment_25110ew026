@@ -15,10 +15,9 @@ int main()
     {
         length_1++;
     }
-    while (str2[length_2]!='\0')
+    while(str2[length_2]!='\0')
     {
         length_2++;
-
     } 
     if(length_1!=length_2)
     {

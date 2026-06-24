@@ -9,7 +9,7 @@ int main()
     scanf("%s",str);
     length=strlen(str);
     printf("The compressed string: ");
-    for (i=0;i<length;i++) 
+    for(i=0;i<length;i++) 
     {
         count=1;
         while(i<length-1 && str[i]==str[i+1]) 
