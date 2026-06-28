@@ -17,11 +17,11 @@ int main()
             {
                 if(seats[i]==0) 
                 {
-                    printf("Seat %d: Available\n",i + 1);
+                    printf("Seat %d: Available\n",i+1);
                 } 
                 else 
                 {
-                    printf("Seat %d: BOOKED\n",i + 1);
+                    printf("Seat %d: BOOKED\n",i+1);
                 }
             }
         } 
