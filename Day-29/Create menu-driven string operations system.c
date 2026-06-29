@@ -46,7 +46,6 @@ int main()
                 else
                     printf("Strings are different\n");
                 break;
-
             default:
                 printf("Invalid choice!\n");
         }
