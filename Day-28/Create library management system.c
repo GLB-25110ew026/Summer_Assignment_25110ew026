@@ -1,4 +1,4 @@
-// WAP to create library management system.
+//WAP to create library management system.
 #include <stdio.h>
 #include <stdlib.h>
 struct Book 
