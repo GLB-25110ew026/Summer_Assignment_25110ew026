@@ -15,7 +15,6 @@ int main()
         {
             if(count<50)
             {
-
                 printf("Enter Roll No: ");
                 scanf("%d",&roll_no[count]);
                 printf("Enter Name: ");
